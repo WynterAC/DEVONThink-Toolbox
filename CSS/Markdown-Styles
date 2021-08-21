@@ -1,0 +1,7 @@
+$ git remote add origin https://github.com/WynterAC/markdown-css-themes.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/WynterAC/markdown-css-themes.gitt (fetch)
+> origin  https://github.com/WynterAC/markdown-css-themes.git (push)
