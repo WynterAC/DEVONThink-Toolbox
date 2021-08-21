@@ -1,0 +1,62 @@
+/*
+	Simple RSS style sheet
+	Written by Eric Böhnisch-Volkmann, May 29, 2011
+	Updated for Dark mode by Christian Grunenberg, Apr 15 2019
+*/
+
+body
+{
+	padding: 20px;
+	margin: 0px;
+	font-family: Helvetica, sans-serif;
+	color: #444;
+	background: #fff;
+	line-height: 130%;
+}
+
+.page_header { background: #3663e0; padding: 0px; }
+.page_title { font-size: x-large; color: #fff; padding: 10px; }
+
+a { text-decoration: none; color: #063ea1; }
+a:hover { color: #052b6c; text-decoration: none; }
+
+.feed_header
+{
+	font-size: 1.2em;
+	color: #777;
+	font-weight: bold;
+	padding: 10px 10px 20px 10px;
+	line-height: 130%;
+}
+
+.feed_date
+{
+	color: #aaa;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+.feed_link { color: #777; }
+.feed_link:hover { }
+.feed_article { display: table; font-size: 0.75em; padding-left: 10px; padding-right: 10px; padding-top: 0px; padding-bottom: 10px; }
+.feed_enclosure { text-decoration: none; }
+.feed_enclosure:hover { text-decoration: underline; color: #00f; }
+
+hr { display: none; }
+img { max-width: 100%; height: auto; display: block; }
+
+@media (prefers-color-scheme: dark) {
+	body { color: #444; background: #171717; }
+
+	.page_header { background: #3663e0; }
+	.page_title { color: #ccc;  }
+
+	.feed_header { color: #ccc; }
+	.feed_date { color: #777; }
+	.feed_link { color: #ccc; }
+	.feed_article { color: #aaa}
+	.feed_enclosure:hover { color: #00f; }
+
+	a { color: #367eb1; }
+	a:hover { color: #669ed1; }
+}

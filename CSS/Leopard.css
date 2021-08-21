@@ -1,0 +1,17 @@
+body { padding: 0px; margin: 0px; font-family: \\'Lucida Grande\\', sans-serif; color: #000; background: #fff; }
+
+.page_header { background: #3663e0; padding: 0px; }
+.page_title { font-size: x-large; color: #fff; padding: 10px; }
+
+a { text-decoration: none; color: #3663e0; }
+a:hover { color: #00f; }
+
+.feed_date { color: #777; font-size: 0.75em; font-weight: bold; }
+.feed_header { font-size: 1.0em; font-weight: bold; padding: 10px; color: #000; }
+.feed_link { text-decoration: none; color: #000; }
+.feed_link:hover { text-decoration: none; border-bottom: 2px solid #888; }
+.feed_article { display: table; font-size: 0.75em; padding-left: 10px; padding-right: 10px; padding-top: 0px; padding-bottom: 10px; border-bottom: 1px solid #bbb; }
+.feed_enclosure { text-decoration: none; }
+.feed_enclosure:hover { text-decoration: underline; color: #00f; }
+
+img { max-width: 100%; height: auto; display: block; }
